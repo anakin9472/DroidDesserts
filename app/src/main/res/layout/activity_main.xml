@@ -93,4 +93,17 @@
         app:layout_constraintStart_toEndOf="@+id/imgViewFroyo"
         app:layout_constraintTop_toTopOf="@+id/imgViewFroyo" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@color/indianred"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewFroyo"
+        app:srcCompat="@drawable/ic_shopping_cart" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
